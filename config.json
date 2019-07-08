@@ -1,0 +1,7 @@
+{
+    "database": "pawan",
+    "username": "root",
+    "password": "redhat",
+    "host": "localhost",
+    "dialect": "mysql"
+}
