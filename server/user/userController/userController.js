@@ -20,5 +20,15 @@ class user {
 
 
     }
+
+    async getDetails(req, res) {
+        db.owners
+            .findAndCountAll({
+            })
+            .then(result => {
+                res.json(result);
+
+            });
+    }
 }
 module.exports = new user();
