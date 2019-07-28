@@ -10,11 +10,8 @@ module.exports = (sequelize, DataTypes) => {
     name: {
       type: DataTypes.STRING,
       required: true
-    }, created_at: {
-      type: DataTypes.DATE,
-      allowNull: true
     },
-    updated_at: DataTypes.DATE,
+   
 
 
   }, {
